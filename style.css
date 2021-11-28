@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Bodoni Moda', serif;
+  src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">);
+}
+
+@font-face {
+  font-family: 'B612', sans-serif;
+  src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet">);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display:grid;
+  }
+
+  h1{
+    font-family: 'B612', sans-serif;
+    font-size: 36px;
+    font-weight:50;
+    text-align: center;
+    color: #DAF7A6 ;
+  }
+
+  p{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 12px;
+    font-weight:400;
+    text-align: center;
+    color:white;
+  }
