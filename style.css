@@ -54,6 +54,22 @@ html, body {
     color:#DBD501 ;
   }
 
+  h5{
+    font-family: 'B612', sans-serif;
+    font-size: 200px;
+    font-weight:50;
+    color: chartreuse ;
+  }
+
+  h6{
+    p { margin: 0;}
+    font-family: 'B612', sans-serif;
+    font-size: 20px;
+    font-weight:50;
+    color: chartreuse;
+  }
+
+
   p{
     font-family: 'Bodoni Moda', serif;
     font-size: 12px;
@@ -68,7 +84,7 @@ html, body {
     width: 50%;
   }
 
-    /*ID*/
-    #links{
-      background-color: chartreuse;
-    }
+  /*ID*/
+  #subtitle{
+    background-color: chartreuse;
+  }
