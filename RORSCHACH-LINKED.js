@@ -88,7 +88,7 @@
 
     //stage
     dom.stage = document.createElement("stage");
-    dom.stage.style.transform = "translateX(" + (twrk.center.x * twrk.res) + "px) translateY(" + (twrk.center.y * twrk.res) + "px)";
+    // dom.stage.style.transform = "translateX(" + (twrk.center.x * twrk.res) + "px) translateY(" + (twrk.center.y * twrk.res) + "px)";
     dom.stage.id = "stage";
     document.body.appendChild(dom.stage);
 

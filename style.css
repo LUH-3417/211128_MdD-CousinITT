@@ -20,18 +20,55 @@ html, body {
     display:grid;
   }
 
+/*HTML ELEMENTS*/
+  * {
+    text-align: center;
+    color:white;
+  }
+
   h1{
     font-family: 'B612', sans-serif;
     font-size: 36px;
     font-weight:50;
-    text-align: center;
     color: #DAF7A6 ;
+  }
+
+  h2{
+    font-family: 'B612', sans-serif;
+    font-size: 36px;
+    font-weight:50;
+    color: #BF6260 ;
+  }
+
+  h3{
+    font-family: 'B612', sans-serif;
+    font-size: 36px;
+    font-weight:50;
+    color: red ;
+  }
+
+  h4{
+    font-family: 'B612', sans-serif;
+    font-size: 36px;
+    font-weight:50;
+    color:#DBD501 ;
   }
 
   p{
     font-family: 'Bodoni Moda', serif;
     font-size: 12px;
-    font-weight:400;
-    text-align: center;
-    color:white;
+    font-weight:400;  
   }
+
+  /*CLASS*/
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+    /*ID*/
+    #links{
+      background-color: chartreuse;
+    }

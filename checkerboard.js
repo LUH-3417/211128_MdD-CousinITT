@@ -1,6 +1,6 @@
 //CHECKERBOARD
 
-let grain = 5;
+let grain = 3;
   
 function setup() {
     createCanvas(windowWidth, windowHeight);
