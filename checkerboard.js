@@ -1,13 +1,15 @@
+//CHECKERBOARD
+
+let grain = 5;
+  
 function setup() {
-    createCanvas(500, 500);
+    createCanvas(windowWidth, windowHeight);
   }
   
-  function draw() {
+  function draw() { 
     background(0);
     
-    let grain = 5;
-  
-    
+    //DRAW CHECKERBOARD
     for (var x = grain; x <= width; x += grain*2) {
       for (var y = grain; y <= height; y += grain*2) {
         rect(x, y, grain, grain);
