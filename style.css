@@ -25,47 +25,25 @@ html, body {
   }
 
   h1{
-    font-family: 'Libre Baskerville', serif;
-    font-size: 36px;
-    font-weight:50;
-    color: #DAF7A6 ;
-  }
-
-  h2{
-    font-family: 'Libre Baskerville', serif;
-    font-size: 36px;
-    font-weight:50;
-    color: #BF6260 ;
-  }
-
-  h3{
-    font-family: 'Libre Baskerville', serif;
-    font-size: 36px;
-    font-weight:50;
-    color: red ;
-  }
-
-  h4{
-    font-family: 'Libre Baskerville', serif;
-    font-size: 36px;
-    font-weight:50;
-    color:#DBD501 ;
-  }
-
-  h5{
     font-family: 'Source Code Pro', monospace;
-    font-size: 200px;
+    font-size: 72px;
     font-weight:50;
     color: white ;
   }
 
-  h6{
+  h2{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    font-weight:50;
+    color: whitesmoke ;
+  }
+
+  h3{
     p { margin: 0;}
     /*font-family: 'Source Code Pro', monospace;
     font-size: 20px;
     font-weight:50;*/
   }
-
 
   p{
     font-family: 'Source Code Pro', monospace;
