@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Source Code Pro', monospace;
-  src: <link rel="preconnect" href="https://fonts.googleapis.com">
+  src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap" rel="stylesheet">);
 
 @font-face {
   font-family: 'Libre Baskerville', serif;
-  src: <link rel="preconnect" href="https://fonts.googleapis.com">
+  src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">);
 
 html, body {
     margin: 0;
