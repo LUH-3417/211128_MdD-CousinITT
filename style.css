@@ -26,15 +26,15 @@ html, body {
 
   h1{
     font-family: 'Source Code Pro', monospace;
-    font-size: 72px;
-    font-weight:50;
+    font-size: 154px;
+    font-weight:normal;
     color: white ;
   }
 
   h2{
     font-family: 'Source Code Pro', monospace;
-    font-size: 24px;
-    font-weight:50;
+    font-size: 72px;
+    font-weight:lighter;
     color: whitesmoke ;
   }
 
@@ -54,7 +54,7 @@ html, body {
 
   /*CLASS*/
   .center {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
