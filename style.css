@@ -29,6 +29,7 @@ html, body {
   h1{
     font-family: 'Source Code Pro', monospace;
     font-size: 100px;
+    font-style: italic;
     font-weight:normal;
     color: white ;
   }
@@ -64,5 +65,5 @@ html, body {
 
   /*ID*/
   #subtitle{
-    background-color: black;
+    background-color: none;
   }
