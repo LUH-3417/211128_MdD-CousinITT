@@ -1,16 +1,14 @@
 @font-face {
-  font-family: 'Bodoni Moda', serif;
-  src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
+  font-family: 'Source Code Pro', monospace;
+  src: <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">);
-}
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600;1,611&display=swap" rel="stylesheet">}
 
 @font-face {
-  font-family: 'B612', sans-serif;
-  src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
+  font-family: 'Libre Baskerville', serif;
+  src: <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet">);
-}
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">}
 
 html, body {
     margin: 0;
@@ -27,38 +25,38 @@ html, body {
   }
 
   h1{
-    font-family: 'B612', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 36px;
     font-weight:50;
     color: #DAF7A6 ;
   }
 
   h2{
-    font-family: 'B612', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 36px;
     font-weight:50;
     color: #BF6260 ;
   }
 
   h3{
-    font-family: 'B612', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 36px;
     font-weight:50;
     color: red ;
   }
 
   h4{
-    font-family: 'B612', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 36px;
     font-weight:50;
     color:#DBD501 ;
   }
 
   h5{
-    font-family: 'B612', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     font-size: 200px;
-    font-weight:50;
-    color: chartreuse ;
+    font-weight:20;
+    color: white ;
   }
 
   h6{
@@ -66,14 +64,14 @@ html, body {
     font-family: 'B612', sans-serif;
     font-size: 20px;
     font-weight:50;
-    color: chartreuse;
   }
 
 
   p{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 12px;
-    font-weight:400;  
+    font-weight:400; 
+    color: white ; 
   }
 
   /*CLASS*/
@@ -81,10 +79,10 @@ html, body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 20%;
   }
 
   /*ID*/
   #subtitle{
-    background-color: chartreuse;
+    /*background-color: black;*/
   }
